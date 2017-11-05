@@ -1,0 +1,61 @@
+`<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="main.css">
+		<title>Site Example</title>
+		
+		<script>
+			function myFunction() {
+				var x = document.getElementById("demo2");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+	
+	 <div class="jumbotron">
+      <div class="container">	
+		<div class="button">
+			<button type="button" onclick="myFunction()">Hide Me!</button>
+		</div>
+		<select id='purpose'>
+			<option value="0">Personal use</option>
+			<option value="1">Business use</option>
+			<option value="2">Passing on to a client</option>
+		</select>
+      </div>
+    </div> 
+
+    
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Nice</h2>
+            <p>What to do here?</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+					<h2>Test </h2>
+                    </div>
+						<div class="my-item" onclick="this.style.background='white';">
+							<h3 id="demo2">Hahaa aaaa aaaa</h3>
+						</div>
+						<div class="my-item">
+							<h3>Hahaa aaaa aaaa</h3>
+						</div>
+						<div class="my-item">
+							<h3>Hahaa aaaa aaaa</h3>
+						</div>
+                </div>
+			</div>
+        </div>
+    </div>
+	
+   
+
+	
+	
+	</body>
+</html>
